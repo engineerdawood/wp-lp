@@ -1,0 +1,68 @@
+[03-Oct-2020 17:16:56 UTC] WordPress database error Column 'value' cannot be null for query INSERT INTO `42v_cf_form_entry_values` (`id`, `entry_id`, `field_id`, `slug`, `value`) VALUES (NULL, '2', 'fld_1720034', 'cv', NULL) made by require('wp-blog-header.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, Caldera_Forms::cf_init_system, Caldera_Forms::process_form_via_post, Caldera_Forms::process_submission, do_action('caldera_forms_submit_complete'), WP_Hook->do_action, WP_Hook->apply_filters, Caldera_Forms::save_final_form, Caldera_Forms_Save_Final::save_in_db, Caldera_Forms::save_field_data, Caldera_Forms_Entry_Field::insert, Caldera_Forms_Entry_Field->save
+[03-Oct-2020 17:32:00 UTC] WordPress database error Column 'value' cannot be null for query INSERT INTO `42v_cf_form_entry_values` (`id`, `entry_id`, `field_id`, `slug`, `value`) VALUES (NULL, '3', 'fld_1720034', 'cv', NULL) made by require('wp-blog-header.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, Caldera_Forms::cf_init_system, Caldera_Forms::process_form_via_post, Caldera_Forms::process_submission, do_action('caldera_forms_submit_complete'), WP_Hook->do_action, WP_Hook->apply_filters, Caldera_Forms::save_final_form, Caldera_Forms_Save_Final::save_in_db, Caldera_Forms::save_field_data, Caldera_Forms_Entry_Field::insert, Caldera_Forms_Entry_Field->save
+[17-Nov-2020 02:23:50 UTC] PHP Warning:  require_once(/home4/logicau3/public_html/wp-content/themes/Divi/includes/builder/module/Map.php): failed to open stream: No such file or directory in /home4/logicau3/public_html/wp-content/themes/Divi/includes/builder/main-modules.php on line 28
+[17-Nov-2020 02:23:50 UTC] PHP Fatal error:  require_once(): Failed opening required '/home4/logicau3/public_html/wp-content/themes/Divi/includes/builder/module/Map.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home4/logicau3/public_html/wp-content/themes/Divi/includes/builder/main-modules.php on line 28
+[19-Nov-2020 22:08:48 UTC] PHP Fatal error:  Uncaught Error: Class 'ET_Core_Cache_File' not found in /home4/logicau3/public_html/wp-content/themes/Divi/core/functions.php:1285
+Stack trace:
+#0 /home4/logicau3/public_html/wp-content/themes/Divi/includes/builder/module/helpers/class-et-builder-module-helper-media.php(55): et_get_attachment_id_by_url('https://www.log...')
+#1 /home4/logicau3/public_html/wp-content/themes/Divi/includes/builder/module/FullwidthImage.php(313): ET_Builder_Module_Helper_Media->get_image_attachment_class(Array, 'src')
+#2 /home4/logicau3/public_html/wp-content/themes/Divi/includes/builder/class-et-builder-element.php(3036): ET_Builder_Module_Fullwidth_Image->render(Array, '', 'et_pb_fullwidth...', '', '', '', '')
+#3 /home4/logicau3/public_html/wp-includes/shortcodes.php(343): ET_Builder_Element->_render(Array, '', 'et_pb_fullwidth...')
+#4 [internal function]: do_shortcode_tag(Array)
+#5 /home4/logicau3/public_html/wp-includes/shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(et_pb_...', 'do_shortcode_ta...', '[et_pb_fullwidt... in /home4/logicau3/public_html/wp-content/themes/Divi/core/functions.php on line 1285
+[26-Nov-2020 01:25:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/logicau3/public_html/wp-content/db-error.php:1) in /home4/logicau3/public_html/wp-content/db-error.php on line 3
+[26-Nov-2020 01:25:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/logicau3/public_html/wp-content/db-error.php:1) in /home4/logicau3/public_html/wp-content/db-error.php on line 4
+[26-Nov-2020 01:25:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/logicau3/public_html/wp-content/db-error.php:1) in /home4/logicau3/public_html/wp-content/db-error.php on line 5
+[15-Dec-2020 10:32:28 UTC] PHP Warning:  require_once(module/helpers/Background.php): failed to open stream: No such file or directory in /home4/logicau3/public_html/wp-content/themes/Divi/includes/builder/autoload.php on line 108
+[15-Dec-2020 10:32:28 UTC] PHP Fatal error:  require_once(): Failed opening required 'module/helpers/Background.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home4/logicau3/public_html/wp-content/themes/Divi/includes/builder/autoload.php on line 108
+[21-Dec-2020 13:49:15 UTC] PHP Warning:  include_once(/home4/logicau3/public_html/wp-content/plugins/caldera-forms/classes/autoloader.php): failed to open stream: No such file or directory in /home4/logicau3/public_html/wp-content/plugins/caldera-forms/caldera-core.php on line 81
+[21-Dec-2020 13:49:15 UTC] PHP Warning:  include_once(): Failed opening '/home4/logicau3/public_html/wp-content/plugins/caldera-forms/classes/autoloader.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home4/logicau3/public_html/wp-content/plugins/caldera-forms/caldera-core.php on line 81
+[21-Dec-2020 13:49:15 UTC] PHP Warning:  include_once(/home4/logicau3/public_html/wp-content/plugins/caldera-forms/classes/widget.php): failed to open stream: No such file or directory in /home4/logicau3/public_html/wp-content/plugins/caldera-forms/caldera-core.php on line 82
+[21-Dec-2020 13:49:15 UTC] PHP Warning:  include_once(): Failed opening '/home4/logicau3/public_html/wp-content/plugins/caldera-forms/classes/widget.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home4/logicau3/public_html/wp-content/plugins/caldera-forms/caldera-core.php on line 82
+[21-Dec-2020 13:49:15 UTC] PHP Fatal error:  Uncaught Error: Class 'Caldera_Forms_Autoloader' not found in /home4/logicau3/public_html/wp-content/plugins/caldera-forms/caldera-core.php:83
+Stack trace:
+#0 /home4/logicau3/public_html/wp-includes/class-wp-hook.php(287): caldera_forms_load('')
+#1 /home4/logicau3/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home4/logicau3/public_html/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /home4/logicau3/public_html/wp-settings.php(420): do_action('plugins_loaded')
+#4 /home4/logicau3/public_html/wp-config.php(95): require_once('/home4/logicau3...')
+#5 /home4/logicau3/public_html/wp-load.php(37): require_once('/home4/logicau3...')
+#6 /home4/logicau3/public_html/wp-blog-header.php(13): require_once('/home4/logicau3...')
+#7 /home4/logicau3/public_html/index.php(17): require('/home4/logicau3...')
+#8 {main}
+  thrown in /home4/logicau3/public_html/wp-content/plugins/caldera-forms/caldera-core.php on line 83
+[13-Jan-2021 22:43:12 UTC] PHP Fatal error:  Uncaught Error: Class 'ET_Core_Portability' not found in /home4/logicau3/public_html/wp-content/themes/Divi/includes/builder/core.php:109
+Stack trace:
+#0 /home4/logicau3/public_html/wp-content/themes/Divi/includes/builder/core.php(152): et_builder_should_load_framework()
+#1 /home4/logicau3/public_html/wp-content/themes/Divi/includes/builder/framework.php(103): require_once('/home4/logicau3...')
+#2 /home4/logicau3/public_html/wp-content/themes/Divi/et-pagebuilder/et-pagebuilder.php(13): require_once('/home4/logicau3...')
+#3 /home4/logicau3/public_html/wp-includes/class-wp-hook.php(287): et_setup_builder('')
+#4 /home4/logicau3/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#5 /home4/logicau3/public_html/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /home4/logicau3/public_html/wp-settings.php(557): do_action('init')
+#7 /home4/logicau3/public_html/wp-config.php(95): require_once('/home4/logicau3...')
+#8 /home4/logicau3/public_html/wp-load.php(37): require_once('/ho in /home4/logicau3/public_html/wp-content/themes/Divi/includes/builder/core.php on line 109
+[13-Jan-2021 22:43:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function elegant_description() in /home4/logicau3/public_html/wp-content/themes/Divi/header.php:6
+Stack trace:
+#0 /home4/logicau3/public_html/wp-includes/template.php(730): require_once()
+#1 /home4/logicau3/public_html/wp-includes/template.php(676): load_template('/home4/logicau3...', true, Array)
+#2 /home4/logicau3/public_html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /home4/logicau3/public_html/wp-content/themes/Divi/index.php(1): get_header()
+#4 /home4/logicau3/public_html/wp-includes/template-loader.php(106): include('/home4/logicau3...')
+#5 /home4/logicau3/public_html/wp-blog-header.php(19): require_once('/home4/logicau3...')
+#6 /home4/logicau3/public_html/index.php(17): require('/home4/logicau3...')
+#7 {main}
+  thrown in /home4/logicau3/public_html/wp-content/themes/Divi/header.php on line 6
+[13-Jan-2021 22:43:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function elegant_description() in /home4/logicau3/public_html/wp-content/themes/Divi/header.php:6
+Stack trace:
+#0 /home4/logicau3/public_html/wp-includes/template.php(730): require_once()
+#1 /home4/logicau3/public_html/wp-includes/template.php(676): load_template('/home4/logicau3...', true, Array)
+#2 /home4/logicau3/public_html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /home4/logicau3/public_html/wp-content/themes/Divi/index.php(1): get_header()
+#4 /home4/logicau3/public_html/wp-includes/template-loader.php(106): include('/home4/logicau3...')
+#5 /home4/logicau3/public_html/wp-blog-header.php(19): require_once('/home4/logicau3...')
+#6 /home4/logicau3/public_html/index.php(17): require('/home4/logicau3...')
+#7 {main}
+  thrown in /home4/logicau3/public_html/wp-content/themes/Divi/header.php on line 6
+[16-Jan-2021 00:20:49 UTC] PHP Warning:  require_once(/home4/logicau3/public_html/wp-content/themes/Divi/includes/builder/module/Portfolio.php): failed to open stream: No such file or directory in /home4/logicau3/public_html/wp-content/themes/Divi/includes/builder/main-modules.php on line 28
+[16-Jan-2021 00:20:49 UTC] PHP Fatal error:  require_once(): Failed opening required '/home4/logicau3/public_html/wp-content/themes/Divi/includes/builder/module/Portfolio.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home4/logicau3/public_html/wp-content/themes/Divi/includes/builder/main-modules.php on line 28

@@ -1,0 +1,547 @@
+0000.000 (0) Opened log file at time: Sun, 18 Oct 2020 18:27:29 +0000 on https://www.logicalprediction.com
+0000.004 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.30 WP: 5.5.1 PHP: 7.4.11 (cgi-fcgi, Linux box5385.bluehost.com 4.14.146-225.ELK.el6.x86_64 #1 SMP Sat Sep 21 01:19:55 CDT 2019 x86_64) MySQL: 5.6.41-84.1 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 64.2M | 67M) multisite: N openssl: OpenSSL 1.1.1h  22 Sep 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.066 (0) Free space on disk containing Updraft's temporary directory: 886012.4 MB
+0000.077 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.084 (0) Semaphore (fd, 42v_options) being initialised
+0000.116 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.130 (0) Set semaphore last lock (fd) time to 2020-10-18 18:27:29
+0000.132 (0) Semaphore lock (fd) complete
+0000.142 (0) Backup run: resumption=0, nonce=77a5e7993958, file_nonce=77a5e7993958 begun at=1603045649 (0s ago), job type=backup
+0000.152 (0) Scheduling a resumption (1) after 300 seconds (1603045949) in case this run gets aborted
+0000.188 (0) Checking if we have a zip executable available
+0000.193 (0) Testing: /usr/bin/zip
+0000.207 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.210 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.213 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.215 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.217 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.232 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.236 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.254 (0) Working binary zip found: /usr/bin/zip
+0000.260 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.266 (0) Creation of backups of directories: beginning
+0000.283 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.924 (0) Total entities for the zip file: 1178 directories, 7393 files (0 skipped as non-modified), 94.8 MB
+0000.937 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.950 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.962 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.968 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.974 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.977 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.2 MB, 7393 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0001.953 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-plugins.zip.tmp: size is now: 3.30 MB
+0001.962 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-plugins.zip.tmp: 600 files added (on-disk size: 3383.9 KB)
+0001.970 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-plugins.zip.tmp: 700 files added (on-disk size: 3383.9 KB)
+0001.977 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-plugins.zip.tmp: 800 files added (on-disk size: 3383.9 KB)
+0001.984 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-plugins.zip.tmp: 900 files added (on-disk size: 3383.9 KB)
+0001.992 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-plugins.zip.tmp: 1000 files added (on-disk size: 3383.9 KB)
+0001.997 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (0.4 MB, 7393 files batched, 501 (1002) added so far); re-opening (prior size: 3383.9 KB)
+0002.322 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-plugins.zip.tmp: 1100 files added (on-disk size: 3743.6 KB)
+0002.335 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-plugins.zip.tmp: 1200 files added (on-disk size: 3743.6 KB)
+0002.350 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-plugins.zip.tmp: 1300 files added (on-disk size: 3743.6 KB)
+0002.370 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-plugins.zip.tmp: 1400 files added (on-disk size: 3743.6 KB)
+0002.387 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-plugins.zip.tmp: 1500 files added (on-disk size: 3743.6 KB)
+0002.392 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (0.6 MB, 7393 files batched, 501 (1503) added so far); re-opening (prior size: 3743.6 KB)
+0002.671 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-plugins.zip.tmp: 1600 files added (on-disk size: 4060.1 KB)
+0002.679 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-plugins.zip.tmp: 1700 files added (on-disk size: 4060.1 KB)
+0002.686 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-plugins.zip.tmp: 1800 files added (on-disk size: 4060.1 KB)
+0002.694 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-plugins.zip.tmp: 1900 files added (on-disk size: 4060.1 KB)
+0002.703 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-plugins.zip.tmp: 2000 files added (on-disk size: 4060.1 KB)
+0002.707 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (15.3 MB, 7393 files batched, 501 (2004) added so far); re-opening (prior size: 4060.1 KB)
+0004.078 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-plugins.zip.tmp: size is now: 10.10 MB
+0004.092 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-plugins.zip.tmp: 2100 files added (on-disk size: 10353.5 KB)
+0004.103 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-plugins.zip.tmp: 2200 files added (on-disk size: 10353.5 KB)
+0004.113 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-plugins.zip.tmp: 2300 files added (on-disk size: 10353.5 KB)
+0004.124 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-plugins.zip.tmp: 2400 files added (on-disk size: 10353.5 KB)
+0004.134 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-plugins.zip.tmp: 2500 files added (on-disk size: 10353.5 KB)
+0004.137 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.6 MB, 7393 files batched, 501 (2505) added so far); re-opening (prior size: 10353.5 KB)
+0004.696 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-plugins.zip.tmp: 2600 files added (on-disk size: 10871.9 KB)
+0004.706 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-plugins.zip.tmp: 2700 files added (on-disk size: 10871.9 KB)
+0004.714 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-plugins.zip.tmp: 2800 files added (on-disk size: 10871.9 KB)
+0004.724 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-plugins.zip.tmp: 2900 files added (on-disk size: 10871.9 KB)
+0004.736 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-plugins.zip.tmp: 3000 files added (on-disk size: 10871.9 KB)
+0004.746 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.6 MB, 7393 files batched, 501 (3006) added so far); re-opening (prior size: 10871.9 KB)
+0005.405 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-plugins.zip.tmp: 3100 files added (on-disk size: 11895.7 KB)
+0005.533 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-plugins.zip.tmp: 3200 files added (on-disk size: 11895.7 KB)
+0005.668 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-plugins.zip.tmp: 3300 files added (on-disk size: 11895.7 KB)
+0005.779 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-plugins.zip.tmp: 3400 files added (on-disk size: 11895.7 KB)
+0005.803 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-plugins.zip.tmp: 3500 files added (on-disk size: 11895.7 KB)
+0005.852 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.3 MB, 7393 files batched, 501 (3507) added so far); re-opening (prior size: 11895.7 KB)
+0007.202 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-plugins.zip.tmp: 3600 files added (on-disk size: 13727.7 KB)
+0007.218 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-plugins.zip.tmp: 3700 files added (on-disk size: 13727.7 KB)
+0007.230 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-plugins.zip.tmp: 3800 files added (on-disk size: 13727.7 KB)
+0007.243 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-plugins.zip.tmp: 3900 files added (on-disk size: 13727.7 KB)
+0007.259 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-plugins.zip.tmp: 4000 files added (on-disk size: 13727.7 KB)
+0007.272 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (13.8 MB, 7393 files batched, 501 (4008) added so far); re-opening (prior size: 13727.7 KB)
+0009.715 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-plugins.zip.tmp: size is now: 18.20 MB
+0009.738 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-plugins.zip.tmp: 4100 files added (on-disk size: 18685.5 KB)
+0009.751 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-plugins.zip.tmp: 4200 files added (on-disk size: 18685.5 KB)
+0009.764 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-plugins.zip.tmp: 4300 files added (on-disk size: 18685.5 KB)
+0009.783 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-plugins.zip.tmp: 4400 files added (on-disk size: 18685.5 KB)
+0009.796 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-plugins.zip.tmp: 4500 files added (on-disk size: 18685.5 KB)
+0009.801 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4 MB, 7393 files batched, 501 (4509) added so far); re-opening (prior size: 18685.5 KB)
+0010.767 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-plugins.zip.tmp: 4600 files added (on-disk size: 20235.7 KB)
+0010.778 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-plugins.zip.tmp: 4700 files added (on-disk size: 20235.7 KB)
+0010.789 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-plugins.zip.tmp: 4800 files added (on-disk size: 20235.7 KB)
+0010.803 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-plugins.zip.tmp: 4900 files added (on-disk size: 20235.7 KB)
+0010.814 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-plugins.zip.tmp: 5000 files added (on-disk size: 20235.7 KB)
+0010.821 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.7 MB, 7393 files batched, 501 (5010) added so far); re-opening (prior size: 20235.7 KB)
+0011.361 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-plugins.zip.tmp: 5100 files added (on-disk size: 21184.5 KB)
+0011.379 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-plugins.zip.tmp: 5200 files added (on-disk size: 21184.5 KB)
+0011.397 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-plugins.zip.tmp: 5300 files added (on-disk size: 21184.5 KB)
+0011.410 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-plugins.zip.tmp: 5400 files added (on-disk size: 21184.5 KB)
+0011.420 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-plugins.zip.tmp: 5500 files added (on-disk size: 21184.5 KB)
+0011.424 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.4 MB, 7393 files batched, 501 (5511) added so far); re-opening (prior size: 21184.5 KB)
+0011.805 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-plugins.zip.tmp: 5600 files added (on-disk size: 22258.4 KB)
+0011.818 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-plugins.zip.tmp: 5700 files added (on-disk size: 22258.4 KB)
+0011.828 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-plugins.zip.tmp: 5800 files added (on-disk size: 22258.4 KB)
+0011.837 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-plugins.zip.tmp: 5900 files added (on-disk size: 22258.4 KB)
+0011.845 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-plugins.zip.tmp: 6000 files added (on-disk size: 22258.4 KB)
+0011.850 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (20.1 MB, 7393 files batched, 501 (6012) added so far); re-opening (prior size: 22258.4 KB)
+0013.285 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-plugins.zip.tmp: size is now: 27.10 MB
+0013.298 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-plugins.zip.tmp: 6100 files added (on-disk size: 27786.7 KB)
+0013.309 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-plugins.zip.tmp: 6200 files added (on-disk size: 27786.7 KB)
+0013.319 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-plugins.zip.tmp: 6300 files added (on-disk size: 27786.7 KB)
+0013.329 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-plugins.zip.tmp: 6400 files added (on-disk size: 27786.7 KB)
+0013.343 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-plugins.zip.tmp: 6500 files added (on-disk size: 27786.7 KB)
+0013.348 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (11.3 MB, 7393 files batched, 501 (6513) added so far); re-opening (prior size: 27786.7 KB)
+0014.278 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-plugins.zip.tmp: 6600 files added (on-disk size: 31659.1 KB)
+0014.287 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-plugins.zip.tmp: 6700 files added (on-disk size: 31659.1 KB)
+0014.298 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-plugins.zip.tmp: 6800 files added (on-disk size: 31659.1 KB)
+0014.306 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-plugins.zip.tmp: 6900 files added (on-disk size: 31659.1 KB)
+0014.312 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-plugins.zip.tmp: 7000 files added (on-disk size: 31659.1 KB)
+0014.315 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.6 MB, 7393 files batched, 501 (7014) added so far); re-opening (prior size: 31659.1 KB)
+0014.833 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-plugins.zip.tmp: 7100 files added (on-disk size: 33202.3 KB)
+0014.842 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-plugins.zip.tmp: 7200 files added (on-disk size: 33202.3 KB)
+0014.851 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-plugins.zip.tmp: 7300 files added (on-disk size: 33202.3 KB)
+0015.720 (0) Created plugins zip (0) - 33946.8 KB in 15.4 s (2211.3 KB/s) (sha1: 1131f99ecd55189d8af191df0cfe75d1165d5da2, sha256: 15913dd1e3144ec4b580f2ded26ff4047a2da80fc509674683d338b0dbf6ca83)
+0015.726 (0) Beginning creation of dump of themes (split every: 400 MB)
+0015.881 (0) Total entities for the zip file: 169 directories, 957 files (0 skipped as non-modified), 36.7 MB
+0015.892 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0015.902 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0015.919 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0015.926 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0015.934 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0015.937 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (19.2 MB, 957 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0017.125 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-themes.zip.tmp: size is now: 4.90 MB
+0017.147 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-themes.zip.tmp: 600 files added (on-disk size: 4993.8 KB)
+0017.163 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-themes.zip.tmp: 700 files added (on-disk size: 4993.8 KB)
+0017.176 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-themes.zip.tmp: 800 files added (on-disk size: 4993.8 KB)
+0017.193 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-themes.zip.tmp: 900 files added (on-disk size: 4993.8 KB)
+0018.880 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-themes.zip.tmp: size is now: 10.60 MB
+0019.048 (0) Created themes zip (0) - 10838.5 KB in 3.3 s (3323.3 KB/s) (sha1: 85fcde36e213e4c9b7d7ea9c67e90b4d4c9ef26f, sha256: e4d02c743d873e20bcc80231e163bd05240dbf3549c66c6b55bc7d2688350281)
+0019.054 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0019.056 (0) Looking for candidates to backup in: /home4/logicau3/public_html/wp-content/uploads
+0019.058 (0) finding files: et_temp: adding to list (1)
+0019.060 (0) finding files: revslider: adding to list (2)
+0019.066 (0) finding files: 2020: adding to list (3)
+0019.069 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0019.157 (0) Total entities for the zip file: 6 directories, 778 files (0 skipped as non-modified), 66.8 MB
+0019.168 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0019.178 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0019.186 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0019.190 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25 MB, 778 files batched, 329 (329) added so far); re-opening (prior size: 0 KB)
+0019.680 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-uploads.zip.tmp: size is now: 25.10 MB
+0019.687 (0) A useful amount of data was added after this amount of zip processing: 1.2 s (normalised: 1.2 s, rate: 21361.1 KB/s)
+0019.695 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.1998600959778, normalised_time=1.1984426416738, max_time=19.691337108612, data points known=1, old_max_bytes=26214400, new_max_bytes=209715200)
+0019.704 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-uploads.zip.tmp: 400 files added (on-disk size: 25701.1 KB)
+0019.711 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-uploads.zip.tmp: 500 files added (on-disk size: 25701.1 KB)
+0019.718 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-uploads.zip.tmp: 600 files added (on-disk size: 25701.1 KB)
+0019.724 (0) Zip: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-uploads.zip.tmp: 700 files added (on-disk size: 25701.1 KB)
+0020.402 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-uploads.zip.tmp: size is now: 67.00 MB
+0021.323 (0) Created uploads zip (0) - 68570.5 KB in 2.2 s (31298.8 KB/s) (sha1: 1df047a45a040d932e56514b1ba1b46af24bb03c, sha256: 6505add1832d6e72a2409bbbda4329637ec7243b3d0537900515508a32ac3b4f)
+0021.376 (0) Beginning backup of other directories found in the content directory (index: 0)
+0021.385 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0021.395 (0) Looking for candidates to backup in: /home4/logicau3/public_html/wp-content
+0021.398 (0) finding files: db-error.php: adding to list (1)
+0021.402 (0) finding files: plugins: skipping: this is the plugins directory
+0021.418 (0) finding files: index.php: adding to list (2)
+0021.423 (0) finding files: updraft: skipping: this is the updraft directory
+0021.429 (0) finding files: maintenance.php: adding to list (3)
+0021.440 (0) finding files: uploads: skipping: this is the uploads directory
+0021.451 (0) finding files: wflogs: adding to list (4)
+0021.467 (0) finding files: upgrade: skipping: excluded by options
+0021.488 (0) finding files: mu-plugins: adding to list (5)
+0021.492 (0) finding files: themes: skipping: this is the themes directory
+0021.495 (0) finding files: et-cache: adding to list (6)
+0021.574 (0) Total entities for the zip file: 4 directories, 15 files (0 skipped as non-modified), 5.3 MB
+0022.234 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-others.zip.tmp: size is now: 2.40 MB
+0022.307 (0) Created others zip (0) - 2436.6 KB in 0.8 s (3170.4 KB/s) (sha1: cf0c769510d8f4e3a3ec518bd4491dfcd48b9b72, sha256: d4d6d8009e2e8ce651fc7d284317e3d01c055a837766314400dc83575b256b07)
+0022.327 (0) Saving backup status to database (elements: 8)
+0022.352 (0) Beginning creation of database dump (WordPress DB)
+0022.368 (0) SQL compatibility mode is: NO_ENGINE_SUBSTITUTION
+0022.373 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0022.444 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `42v_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCR (truncated - 1254 bytes total)
+0022.468 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0022.710 (0) Table 42v_options: Total expected rows (approximate): 302
+0022.850 (0) Table 42v_options: Rows added in this batch (next record: 9745): 302 in 0.10 seconds
+0022.865 (0) Table 42v_options: finishing file(s) (2, 250.2 KB)
+0022.874 (0) Table 42v_users: Total expected rows (approximate): 0
+0022.881 (0) Table 42v_users: Rows added in this batch (next record: 1): 1 in 0.00 seconds
+0022.892 (0) Table 42v_users: finishing file(s) (2, 0.6 KB)
+0022.900 (0) Table 42v_usermeta: Total expected rows (approximate): 26
+0022.907 (0) Table 42v_usermeta: Rows added in this batch (next record: 35): 27 in 0.00 seconds
+0022.924 (0) Table 42v_usermeta: finishing file(s) (2, 1.6 KB)
+0022.940 (0) Table 42v_commentmeta: Total expected rows (approximate): 0
+0022.956 (0) Table 42v_commentmeta: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0022.965 (0) Table 42v_commentmeta: finishing file(s) (2, 0.4 KB)
+0022.973 (0) Table 42v_comments: Total expected rows (approximate): 1
+0022.979 (0) Table 42v_comments: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0022.990 (0) Table 42v_comments: finishing file(s) (2, 0.5 KB)
+0023.005 (0) Table 42v_links: Total expected rows (approximate): 0
+0023.014 (0) Table 42v_links: Rows added in this batch (next record: -1): 0 in 0.01 seconds
+0023.022 (0) Table 42v_links: finishing file(s) (2, 0.5 KB)
+0023.032 (0) Table 42v_postmeta: Total expected rows (approximate): 494
+0023.052 (0) Table 42v_postmeta: Rows added in this batch (next record: 775): 506 in 0.02 seconds
+0023.086 (0) Table 42v_postmeta: finishing file(s) (2, 13.3 KB)
+0023.098 (0) Table 42v_posts: Total expected rows (approximate): 150
+0023.161 (0) Table 42v_posts: Rows added in this batch (next record: 235255): 162 in 0.06 seconds
+0023.253 (0) Table 42v_posts: finishing file(s) (2, 59.2 KB)
+0023.300 (0) Table 42v_term_relationships: Total expected rows (approximate): 27
+0023.332 (0) Table 42v_term_relationships: Rows added in this batch (next record: 12): 27 in 0.01 seconds
+0023.343 (0) Table 42v_term_relationships: finishing file(s) (2, 0.5 KB)
+0023.351 (0) Table 42v_term_taxonomy: Total expected rows (approximate): 10
+0023.360 (0) Table 42v_term_taxonomy: Rows added in this batch (next record: 12): 12 in 0.01 seconds
+0023.372 (0) Table 42v_term_taxonomy: finishing file(s) (2, 0.6 KB)
+0023.379 (0) Table 42v_termmeta: Total expected rows (approximate): 0
+0023.388 (0) Table 42v_termmeta: Rows added in this batch (next record: -1): 0 in 0.01 seconds
+0023.402 (0) Table 42v_termmeta: finishing file(s) (2, 0.4 KB)
+0023.409 (0) Table 42v_terms: Total expected rows (approximate): 11
+0023.416 (0) Table 42v_terms: Rows added in this batch (next record: 12): 12 in 0.00 seconds
+0023.426 (0) Table 42v_terms: finishing file(s) (2, 0.6 KB)
+0023.438 (0) Table 42v_actionscheduler_actions: Total expected rows (approximate): 0
+0023.445 (0) Table 42v_actionscheduler_actions: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0023.458 (0) Table 42v_actionscheduler_actions: finishing file(s) (2, 0.5 KB)
+0023.469 (0) Table 42v_actionscheduler_claims: Total expected rows (approximate): 0
+0023.479 (0) Table 42v_actionscheduler_claims: Rows added in this batch (next record: -1): 0 in 0.01 seconds
+0023.492 (0) Table 42v_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0023.513 (0) Table 42v_actionscheduler_groups: Total expected rows (approximate): 0
+0023.524 (0) Table 42v_actionscheduler_groups: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0023.533 (0) Table 42v_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0023.548 (0) Table 42v_actionscheduler_logs: Total expected rows (approximate): 0
+0023.564 (0) Table 42v_actionscheduler_logs: Rows added in this batch (next record: -1): 0 in 0.01 seconds
+0023.577 (0) Table 42v_actionscheduler_logs: finishing file(s) (2, 0.4 KB)
+0023.591 (0) Table 42v_afp_categories: Total expected rows (approximate): 0
+0023.610 (0) Table 42v_afp_categories: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0023.633 (0) Table 42v_afp_categories: finishing file(s) (2, 0.3 KB)
+0023.651 (0) Table 42v_afp_items: Total expected rows (approximate): 0
+0023.660 (0) Table 42v_afp_items: Rows added in this batch (next record: -1): 0 in 0.01 seconds
+0023.670 (0) Table 42v_afp_items: finishing file(s) (2, 0.4 KB)
+0023.680 (0) Table 42v_cf_form_entries: Total expected rows (approximate): 9
+0023.691 (0) Table 42v_cf_form_entries: Rows added in this batch (next record: 9): 9 in 0.00 seconds
+0023.708 (0) Table 42v_cf_form_entries: finishing file(s) (2, 0.6 KB)
+0023.727 (0) Table 42v_cf_form_entry_meta: Total expected rows (approximate): 0
+0023.736 (0) Table 42v_cf_form_entry_meta: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0023.747 (0) Table 42v_cf_form_entry_meta: finishing file(s) (2, 0.4 KB)
+0023.759 (0) Table 42v_cf_form_entry_values: Total expected rows (approximate): 55
+0023.772 (0) Table 42v_cf_form_entry_values: Rows added in this batch (next record: 61): 61 in 0.01 seconds
+0023.802 (0) Table 42v_cf_form_entry_values: finishing file(s) (2, 2.5 KB)
+0023.812 (0) Table 42v_cf_forms: Total expected rows (approximate): 34
+0023.847 (0) Table 42v_cf_forms: Rows added in this batch (next record: 97): 55 in 0.02 seconds
+0023.860 (0) Table 42v_cf_forms: finishing file(s) (2, 10.5 KB)
+0023.873 (0) Table 42v_cf_pro_messages: Total expected rows (approximate): 0
+0023.882 (0) Table 42v_cf_pro_messages: Rows added in this batch (next record: -1): 0 in 0.01 seconds
+0023.897 (0) Table 42v_cf_pro_messages: finishing file(s) (2, 0.4 KB)
+0023.909 (0) Table 42v_cf_queue_failures: Total expected rows (approximate): 0
+0023.918 (0) Table 42v_cf_queue_failures: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0023.935 (0) Table 42v_cf_queue_failures: finishing file(s) (2, 0.3 KB)
+0023.944 (0) Table 42v_cf_queue_jobs: Total expected rows (approximate): 0
+0023.951 (0) Table 42v_cf_queue_jobs: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0023.963 (0) Table 42v_cf_queue_jobs: finishing file(s) (2, 0.4 KB)
+0023.976 (0) Table 42v_revslider_css: Total expected rows (approximate): 109
+0023.991 (0) Table 42v_revslider_css: Rows added in this batch (next record: 109): 108 in 0.01 seconds
+0024.003 (0) Table 42v_revslider_css: finishing file(s) (2, 4.9 KB)
+0024.016 (0) Table 42v_revslider_css_bkp: Total expected rows (approximate): 47
+0024.026 (0) Table 42v_revslider_css_bkp: Rows added in this batch (next record: 47): 46 in 0.01 seconds
+0024.038 (0) Table 42v_revslider_css_bkp: finishing file(s) (2, 1.8 KB)
+0024.046 (0) Table 42v_revslider_layer_animations: Total expected rows (approximate): 0
+0024.054 (0) Table 42v_revslider_layer_animations: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0024.065 (0) Table 42v_revslider_layer_animations: finishing file(s) (2, 0.3 KB)
+0024.076 (0) Table 42v_revslider_layer_animations_bkp: Total expected rows (approximate): 0
+0024.085 (0) Table 42v_revslider_layer_animations_bkp: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0024.095 (0) Table 42v_revslider_layer_animations_bkp: finishing file(s) (2, 0.3 KB)
+0024.107 (0) Table 42v_revslider_navigations: Total expected rows (approximate): 0
+0024.119 (0) Table 42v_revslider_navigations: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0024.136 (0) Table 42v_revslider_navigations: finishing file(s) (2, 0.4 KB)
+0024.149 (0) Table 42v_revslider_navigations_bkp: Total expected rows (approximate): 0
+0024.160 (0) Table 42v_revslider_navigations_bkp: Rows added in this batch (next record: -1): 0 in 0.01 seconds
+0024.195 (0) Table 42v_revslider_navigations_bkp: finishing file(s) (2, 0.4 KB)
+0024.207 (0) Table 42v_revslider_sliders: Total expected rows (approximate): 0
+0024.216 (0) Table 42v_revslider_sliders: Rows added in this batch (next record: 1): 0 in 0.00 seconds
+0024.231 (0) Table 42v_revslider_sliders: finishing file(s) (2, 0.4 KB)
+0024.250 (0) Table 42v_revslider_sliders_bkp: Total expected rows (approximate): 0
+0024.259 (0) Table 42v_revslider_sliders_bkp: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0024.272 (0) Table 42v_revslider_sliders_bkp: finishing file(s) (2, 0.4 KB)
+0024.296 (0) Table 42v_revslider_slides: Total expected rows (approximate): 3
+0024.313 (0) Table 42v_revslider_slides: Rows added in this batch (next record: 3): 2 in 0.01 seconds
+0024.331 (0) Table 42v_revslider_slides: finishing file(s) (2, 6.8 KB)
+0024.362 (0) Table 42v_revslider_slides_bkp: Total expected rows (approximate): 0
+0024.376 (0) Table 42v_revslider_slides_bkp: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0024.418 (0) Table 42v_revslider_slides_bkp: finishing file(s) (2, 0.3 KB)
+0024.431 (0) Table 42v_revslider_static_slides: Total expected rows (approximate): 0
+0024.439 (0) Table 42v_revslider_static_slides: Rows added in this batch (next record: 1): 0 in 0.00 seconds
+0024.449 (0) Table 42v_revslider_static_slides: finishing file(s) (2, 0.3 KB)
+0024.460 (0) Table 42v_revslider_static_slides_bkp: Total expected rows (approximate): 0
+0024.469 (0) Table 42v_revslider_static_slides_bkp: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0024.496 (0) Table 42v_revslider_static_slides_bkp: finishing file(s) (2, 0.3 KB)
+0024.507 (0) Table 42v_totalsoft_new_plugin: Total expected rows (approximate): 2
+0024.515 (0) Table 42v_totalsoft_new_plugin: Rows added in this batch (next record: 2): 2 in 0.00 seconds
+0024.543 (0) Table 42v_totalsoft_new_plugin: finishing file(s) (2, 0.4 KB)
+0024.554 (0) Table 42v_totalsoft_portfolio_albums: Total expected rows (approximate): 5
+0024.563 (0) Table 42v_totalsoft_portfolio_albums: Rows added in this batch (next record: 24): 5 in 0.00 seconds
+0024.572 (0) Table 42v_totalsoft_portfolio_albums: finishing file(s) (2, 0.5 KB)
+0024.582 (0) Table 42v_totalsoft_portfolio_dbt: Total expected rows (approximate): 16
+0024.588 (0) Table 42v_totalsoft_portfolio_dbt: Rows added in this batch (next record: 16): 16 in 0.00 seconds
+0024.600 (0) Table 42v_totalsoft_portfolio_dbt: finishing file(s) (2, 0.6 KB)
+0024.612 (0) Table 42v_totalsoft_portfolio_dbt_1: Total expected rows (approximate): 16
+0024.623 (0) Table 42v_totalsoft_portfolio_dbt_1: Rows added in this batch (next record: 16): 16 in 0.01 seconds
+0024.632 (0) Table 42v_totalsoft_portfolio_dbt_1: finishing file(s) (2, 2 KB)
+0024.645 (0) Table 42v_totalsoft_portfolio_dbt_2: Total expected rows (approximate): 16
+0024.655 (0) Table 42v_totalsoft_portfolio_dbt_2: Rows added in this batch (next record: 16): 16 in 0.01 seconds
+0024.664 (0) Table 42v_totalsoft_portfolio_dbt_2: finishing file(s) (2, 1.3 KB)
+0024.675 (0) Table 42v_totalsoft_portfolio_dbt_3: Total expected rows (approximate): 0
+0024.684 (0) Table 42v_totalsoft_portfolio_dbt_3: Rows added in this batch (next record: 1): 1 in 0.01 seconds
+0024.694 (0) Table 42v_totalsoft_portfolio_dbt_3: finishing file(s) (2, 0.7 KB)
+0024.716 (0) Table 42v_totalsoft_portfolio_dbt_4: Total expected rows (approximate): 0
+0024.726 (0) Table 42v_totalsoft_portfolio_dbt_4: Rows added in this batch (next record: 1): 1 in 0.00 seconds
+0024.735 (0) Table 42v_totalsoft_portfolio_dbt_4: finishing file(s) (2, 0.6 KB)
+0024.746 (0) Table 42v_totalsoft_portfolio_id: Total expected rows (approximate): 0
+0024.754 (0) Table 42v_totalsoft_portfolio_id: Rows added in this batch (next record: 1): 1 in 0.00 seconds
+0024.781 (0) Table 42v_totalsoft_portfolio_id: finishing file(s) (2, 0.4 KB)
+0024.791 (0) Table 42v_totalsoft_portfolio_images: Total expected rows (approximate): 3
+0024.801 (0) Table 42v_totalsoft_portfolio_images: Rows added in this batch (next record: 17): 3 in 0.01 seconds
+0024.812 (0) Table 42v_totalsoft_portfolio_images: finishing file(s) (2, 0.6 KB)
+0024.823 (0) Table 42v_totalsoft_portfolio_manager: Total expected rows (approximate): 0
+0024.833 (0) Table 42v_totalsoft_portfolio_manager: Rows added in this batch (next record: 1): 1 in 0.01 seconds
+0024.844 (0) Table 42v_totalsoft_portfolio_manager: finishing file(s) (2, 0.4 KB)
+0024.851 (0) Table 42v_wfblockediplog: Total expected rows (approximate): 0
+0024.858 (0) Table 42v_wfblockediplog: Rows added in this batch (next record: 1000): 2 in 0.00 seconds
+0024.867 (0) Table 42v_wfblockediplog: finishing file(s) (2, 0.4 KB)
+0024.875 (0) Table 42v_wfblocks7: Total expected rows (approximate): 0
+0024.884 (0) Table 42v_wfblocks7: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0024.895 (0) Table 42v_wfblocks7: finishing file(s) (2, 0.4 KB)
+0024.903 (0) Table 42v_wfconfig: Total expected rows (approximate): 251
+0025.003 (0) Table 42v_wfconfig: Rows added in this batch (next record: 1000): 255 in 0.09 seconds
+0025.024 (0) Table 42v_wfconfig: finishing file(s) (2, 408.8 KB)
+0025.032 (0) Table 42v_wfcrawlers: Total expected rows (approximate): 9
+0025.050 (0) Table 42v_wfcrawlers: Rows added in this batch (next record: 1000): 9 in 0.00 seconds
+0025.067 (0) Table 42v_wfcrawlers: finishing file(s) (2, 0.6 KB)
+0025.078 (0) Table 42v_wffilechanges: Total expected rows (approximate): 0
+0025.086 (0) Table 42v_wffilechanges: Rows added in this batch (next record: 0): 0 in 0.00 seconds
+0025.109 (0) Table 42v_wffilechanges: finishing file(s) (2, 0.3 KB)
+0025.122 (0) Table 42v_wffilemods: Total expected rows (approximate): 6459
+0025.418 (0) Table 42v_wffilemods: Rows added in this batch (next record: 9000): 8198 in 0.29 seconds
+0025.433 (0) Table 42v_wffilemods: finishing file(s) (2, 797 KB)
+0025.439 (0) Table 42v_wfhits: Total expected rows (approximate): 15
+0025.449 (0) Table 42v_wfhits: Rows added in this batch (next record: 18): 18 in 0.01 seconds
+0025.458 (0) Table 42v_wfhits: finishing file(s) (2, 4.4 KB)
+0025.475 (0) Table 42v_wfhoover: Total expected rows (approximate): 0
+0025.483 (0) Table 42v_wfhoover: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0025.493 (0) Table 42v_wfhoover: finishing file(s) (2, 0.3 KB)
+0025.500 (0) Table 42v_wfissues: Total expected rows (approximate): 2
+0025.517 (0) Table 42v_wfissues: Rows added in this batch (next record: 8): 2 in 0.01 seconds
+0025.527 (0) Table 42v_wfissues: finishing file(s) (2, 1.3 KB)
+0025.537 (0) Table 42v_wfknownfilelist: Total expected rows (approximate): 8287
+0025.618 (0) Table 42v_wfknownfilelist: binary mysqldump finished (writes: 28) in 0.08 seconds
+0025.627 (0) Table 42v_wfknownfilelist: finishing file(s) (1, 79.5 KB)
+0025.649 (0) Table 42v_wflivetraffichuman: Total expected rows (approximate): 0
+0025.659 (0) Table 42v_wflivetraffichuman: Rows added in this batch (next record: 0): 0 in 0.01 seconds
+0025.669 (0) Table 42v_wflivetraffichuman: finishing file(s) (2, 0.3 KB)
+0025.678 (0) Table 42v_wflocs: Total expected rows (approximate): 2
+0025.687 (0) Table 42v_wflocs: Rows added in this batch (next record: 1000): 1 in 0.00 seconds
+0025.704 (0) Table 42v_wflocs: finishing file(s) (2, 0.5 KB)
+0025.714 (0) Table 42v_wflogins: Total expected rows (approximate): 1
+0025.730 (0) Table 42v_wflogins: Rows added in this batch (next record: 10): 10 in 0.01 seconds
+0025.740 (0) Table 42v_wflogins: finishing file(s) (2, 0.8 KB)
+0025.747 (0) Table 42v_wfls_2fa_secrets: Total expected rows (approximate): 0
+0025.776 (0) Table 42v_wfls_2fa_secrets: Rows added in this batch (next record: -1): 0 in 0.02 seconds
+0025.794 (0) Table 42v_wfls_2fa_secrets: finishing file(s) (2, 0.4 KB)
+0025.809 (0) Table 42v_wfls_settings: Total expected rows (approximate): 17
+0025.816 (0) Table 42v_wfls_settings: Rows added in this batch (next record: 1000): 19 in 0.00 seconds
+0025.834 (0) Table 42v_wfls_settings: finishing file(s) (2, 0.8 KB)
+0025.842 (0) Table 42v_wfnotifications: Total expected rows (approximate): 0
+0025.849 (0) Table 42v_wfnotifications: Rows added in this batch (next record: 1000): 7 in 0.00 seconds
+0025.857 (0) Table 42v_wfnotifications: finishing file(s) (2, 0.6 KB)
+0025.867 (0) Table 42v_wfpendingissues: Total expected rows (approximate): 0
+0025.875 (0) Table 42v_wfpendingissues: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0025.884 (0) Table 42v_wfpendingissues: finishing file(s) (2, 0.4 KB)
+0025.890 (0) Table 42v_wfreversecache: Total expected rows (approximate): 3
+0025.898 (0) Table 42v_wfreversecache: Rows added in this batch (next record: 1000): 3 in 0.00 seconds
+0025.906 (0) Table 42v_wfreversecache: finishing file(s) (2, 0.4 KB)
+0025.922 (0) Table 42v_wfsnipcache: Total expected rows (approximate): 0
+0025.931 (0) Table 42v_wfsnipcache: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0025.946 (0) Table 42v_wfsnipcache: finishing file(s) (2, 0.4 KB)
+0025.965 (0) Table 42v_wfstatus: Total expected rows (approximate): 943
+0025.986 (0) Table 42v_wfstatus: Rows added in this batch (next record: 1332): 943 in 0.02 seconds
+0026.004 (0) Table 42v_wfstatus: finishing file(s) (2, 15.9 KB)
+0026.023 (0) Table 42v_wftrafficrates: Total expected rows (approximate): 0
+0026.035 (0) Table 42v_wftrafficrates: Rows added in this batch (next record: 0): 0 in 0.01 seconds
+0026.058 (0) Table 42v_wftrafficrates: finishing file(s) (2, 0.3 KB)
+0026.063 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_options.table.tmpr9746.gz (1/68): adding to final database dump
+0026.144 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_options.table.gz (2/68): adding to final database dump
+0026.147 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_users.table.tmpr2.gz (3/68): adding to final database dump
+0026.150 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_users.table.gz (4/68): adding to final database dump
+0026.153 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_usermeta.table.tmpr36.gz (5/68): adding to final database dump
+0026.157 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_usermeta.table.gz (6/68): adding to final database dump
+0026.161 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_commentmeta.table.tmpr0.gz (7/68): adding to final database dump
+0026.164 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_commentmeta.table.gz (8/68): adding to final database dump
+0026.167 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_comments.table.tmpr0.gz (9/68): adding to final database dump
+0026.169 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_comments.table.gz (10/68): adding to final database dump
+0026.172 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_links.table.tmpr0.gz (11/68): adding to final database dump
+0026.175 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_links.table.gz (12/68): adding to final database dump
+0026.178 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_postmeta.table.tmpr776.gz (13/68): adding to final database dump
+0026.187 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_postmeta.table.gz (14/68): adding to final database dump
+0026.191 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_posts.table.tmpr235256.gz (15/68): adding to final database dump
+0026.211 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_posts.table.gz (16/68): adding to final database dump
+0026.214 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_term_relationships.table.tmpr13.gz (17/68): adding to final database dump
+0026.217 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_term_relationships.table.gz (18/68): adding to final database dump
+0026.219 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_term_taxonomy.table.tmpr13.gz (19/68): adding to final database dump
+0026.223 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_term_taxonomy.table.gz (20/68): adding to final database dump
+0026.226 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_termmeta.table.tmpr0.gz (21/68): adding to final database dump
+0026.229 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_termmeta.table.gz (22/68): adding to final database dump
+0026.233 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_terms.table.tmpr13.gz (23/68): adding to final database dump
+0026.237 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_terms.table.gz (24/68): adding to final database dump
+0026.240 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_actionscheduler_actions.table.tmpr0.gz (25/68): adding to final database dump
+0026.243 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_actionscheduler_actions.table.gz (26/68): adding to final database dump
+0026.246 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_actionscheduler_claims.table.tmpr0.gz (27/68): adding to final database dump
+0026.263 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_actionscheduler_claims.table.gz (28/68): adding to final database dump
+0026.270 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_actionscheduler_groups.table.tmpr0.gz (29/68): adding to final database dump
+0026.275 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_actionscheduler_groups.table.gz (30/68): adding to final database dump
+0026.279 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_actionscheduler_logs.table.tmpr0.gz (31/68): adding to final database dump
+0026.283 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_actionscheduler_logs.table.gz (32/68): adding to final database dump
+0026.287 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_afp_categories.table.tmpr0.gz (33/68): adding to final database dump
+0026.293 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_afp_categories.table.gz (34/68): adding to final database dump
+0026.296 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_afp_items.table.tmpr0.gz (35/68): adding to final database dump
+0026.300 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_afp_items.table.gz (36/68): adding to final database dump
+0026.303 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_cf_form_entries.table.tmpr10.gz (37/68): adding to final database dump
+0026.306 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_cf_form_entries.table.gz (38/68): adding to final database dump
+0026.309 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_cf_form_entry_meta.table.tmpr0.gz (39/68): adding to final database dump
+0026.312 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_cf_form_entry_meta.table.gz (40/68): adding to final database dump
+0026.315 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_cf_form_entry_values.table.tmpr62.gz (41/68): adding to final database dump
+0026.319 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_cf_form_entry_values.table.gz (42/68): adding to final database dump
+0026.323 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_cf_forms.table.tmpr98.gz (43/68): adding to final database dump
+0026.340 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_cf_forms.table.gz (44/68): adding to final database dump
+0026.344 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_cf_pro_messages.table.tmpr0.gz (45/68): adding to final database dump
+0026.348 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_cf_pro_messages.table.gz (46/68): adding to final database dump
+0026.353 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_cf_queue_failures.table.tmpr0.gz (47/68): adding to final database dump
+0026.358 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_cf_queue_failures.table.gz (48/68): adding to final database dump
+0026.362 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_cf_queue_jobs.table.tmpr0.gz (49/68): adding to final database dump
+0026.366 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_cf_queue_jobs.table.gz (50/68): adding to final database dump
+0026.371 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_revslider_css.table.tmpr110.gz (51/68): adding to final database dump
+0026.376 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_revslider_css.table.gz (52/68): adding to final database dump
+0026.380 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_revslider_css_bkp.table.tmpr48.gz (53/68): adding to final database dump
+0026.385 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_revslider_css_bkp.table.gz (54/68): adding to final database dump
+0026.391 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_revslider_layer_animations.table.tmpr0.gz (55/68): adding to final database dump
+0026.396 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_revslider_layer_animations.table.gz (56/68): adding to final database dump
+0026.399 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_revslider_layer_animations_bkp.table.tmpr0.gz (57/68): adding to final database dump
+0026.402 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_revslider_layer_animations_bkp.table.gz (58/68): adding to final database dump
+0026.406 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_revslider_navigations.table.tmpr0.gz (59/68): adding to final database dump
+0026.409 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_revslider_navigations.table.gz (60/68): adding to final database dump
+0026.412 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_revslider_navigations_bkp.table.tmpr0.gz (61/68): adding to final database dump
+0026.415 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_revslider_navigations_bkp.table.gz (62/68): adding to final database dump
+0026.418 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_revslider_sliders.table.tmpr2.gz (63/68): adding to final database dump
+0026.422 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_revslider_sliders.table.gz (64/68): adding to final database dump
+0026.427 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_revslider_sliders_bkp.table.tmpr0.gz (65/68): adding to final database dump
+0026.430 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_revslider_sliders_bkp.table.gz (66/68): adding to final database dump
+0026.433 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_revslider_slides.table.tmpr4.gz (67/68): adding to final database dump
+0026.442 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_revslider_slides.table.gz (68/68): adding to final database dump
+0026.446 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_revslider_slides_bkp.table.tmpr0.gz (69/68): adding to final database dump
+0026.450 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_revslider_slides_bkp.table.gz (70/68): adding to final database dump
+0026.453 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_revslider_static_slides.table.tmpr2.gz (71/68): adding to final database dump
+0026.456 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_revslider_static_slides.table.gz (72/68): adding to final database dump
+0026.459 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_revslider_static_slides_bkp.table.tmpr0.gz (73/68): adding to final database dump
+0026.463 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_revslider_static_slides_bkp.table.gz (74/68): adding to final database dump
+0026.466 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_totalsoft_new_plugin.table.tmpr3.gz (75/68): adding to final database dump
+0026.469 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_totalsoft_new_plugin.table.gz (76/68): adding to final database dump
+0026.472 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_totalsoft_portfolio_albums.table.tmpr25.gz (77/68): adding to final database dump
+0026.474 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_totalsoft_portfolio_albums.table.gz (78/68): adding to final database dump
+0026.477 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_totalsoft_portfolio_dbt.table.tmpr17.gz (79/68): adding to final database dump
+0026.480 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_totalsoft_portfolio_dbt.table.gz (80/68): adding to final database dump
+0026.483 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_totalsoft_portfolio_dbt_1.table.tmpr17.gz (81/68): adding to final database dump
+0026.487 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_totalsoft_portfolio_dbt_1.table.gz (82/68): adding to final database dump
+0026.490 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_totalsoft_portfolio_dbt_2.table.tmpr17.gz (83/68): adding to final database dump
+0026.493 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_totalsoft_portfolio_dbt_2.table.gz (84/68): adding to final database dump
+0026.496 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_totalsoft_portfolio_dbt_3.table.tmpr2.gz (85/68): adding to final database dump
+0026.506 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_totalsoft_portfolio_dbt_3.table.gz (86/68): adding to final database dump
+0026.509 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_totalsoft_portfolio_dbt_4.table.tmpr2.gz (87/68): adding to final database dump
+0026.512 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_totalsoft_portfolio_dbt_4.table.gz (88/68): adding to final database dump
+0026.515 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_totalsoft_portfolio_id.table.tmpr2.gz (89/68): adding to final database dump
+0026.517 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_totalsoft_portfolio_id.table.gz (90/68): adding to final database dump
+0026.520 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_totalsoft_portfolio_images.table.tmpr18.gz (91/68): adding to final database dump
+0026.523 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_totalsoft_portfolio_images.table.gz (92/68): adding to final database dump
+0026.531 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_totalsoft_portfolio_manager.table.tmpr2.gz (93/68): adding to final database dump
+0026.534 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_totalsoft_portfolio_manager.table.gz (94/68): adding to final database dump
+0026.539 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_wfblockediplog.table.tmpr1001.gz (95/68): adding to final database dump
+0026.542 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_wfblockediplog.table.gz (96/68): adding to final database dump
+0026.544 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_wfblocks7.table.tmpr0.gz (97/68): adding to final database dump
+0026.546 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_wfblocks7.table.gz (98/68): adding to final database dump
+0026.549 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_wfconfig.table.tmpr1001.gz (99/68): adding to final database dump
+0026.635 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_wfconfig.table.gz (100/68): adding to final database dump
+0026.638 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_wfcrawlers.table.tmpr1001.gz (101/68): adding to final database dump
+0026.642 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_wfcrawlers.table.gz (102/68): adding to final database dump
+0026.646 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_wffilechanges.table.tmpr1.gz (103/68): adding to final database dump
+0026.651 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_wffilechanges.table.gz (104/68): adding to final database dump
+0026.665 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_wffilemods.table.tmpr9001.gz (105/68): adding to final database dump
+0026.835 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_wffilemods.table.gz (106/68): adding to final database dump
+0026.840 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_wfhits.table.tmpr19.gz (107/68): adding to final database dump
+0026.851 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_wfhits.table.gz (108/68): adding to final database dump
+0026.855 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_wfhoover.table.tmpr0.gz (109/68): adding to final database dump
+0026.860 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_wfhoover.table.gz (110/68): adding to final database dump
+0026.866 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_wfissues.table.tmpr9.gz (111/68): adding to final database dump
+0026.870 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_wfissues.table.gz (112/68): adding to final database dump
+0026.873 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_wfknownfilelist.table.gz (113/68): adding to final database dump
+0026.906 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_wflivetraffichuman.table.tmpr1.gz (114/68): adding to final database dump
+0026.916 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_wflivetraffichuman.table.gz (115/68): adding to final database dump
+0026.920 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_wflocs.table.tmpr1001.gz (116/68): adding to final database dump
+0026.924 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_wflocs.table.gz (117/68): adding to final database dump
+0026.928 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_wflogins.table.tmpr11.gz (118/68): adding to final database dump
+0026.935 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_wflogins.table.gz (119/68): adding to final database dump
+0026.940 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_wfls_2fa_secrets.table.tmpr0.gz (120/68): adding to final database dump
+0026.944 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_wfls_2fa_secrets.table.gz (121/68): adding to final database dump
+0026.952 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_wfls_settings.table.tmpr1001.gz (122/68): adding to final database dump
+0026.958 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_wfls_settings.table.gz (123/68): adding to final database dump
+0026.961 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_wfnotifications.table.tmpr1001.gz (124/68): adding to final database dump
+0026.967 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_wfnotifications.table.gz (125/68): adding to final database dump
+0026.972 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_wfpendingissues.table.tmpr0.gz (126/68): adding to final database dump
+0026.976 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_wfpendingissues.table.gz (127/68): adding to final database dump
+0026.981 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_wfreversecache.table.tmpr1001.gz (128/68): adding to final database dump
+0026.986 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_wfreversecache.table.gz (129/68): adding to final database dump
+0026.991 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_wfsnipcache.table.tmpr0.gz (130/68): adding to final database dump
+0026.995 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_wfsnipcache.table.gz (131/68): adding to final database dump
+0027.000 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_wfstatus.table.tmpr1333.gz (132/68): adding to final database dump
+0027.007 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_wfstatus.table.gz (133/68): adding to final database dump
+0027.010 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_wftrafficrates.table.tmpr1.gz (134/68): adding to final database dump
+0027.012 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db-table-42v_wftrafficrates.table.gz (135/68): adding to final database dump
+0027.049 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db.gz: finished writing out complete database file (1632 KB)
+0027.112 (0) Total database tables backed up: 68 (backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db.gz, size: 1706983, sha1: c01427751feca00f6b6d738064b937d80d8a34a3, sha256: 55ee9d8ed04fd532ba04f06ca246a948a1927146aa4c69e0f0e00f93c38c2a92)
+0027.126 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0027.130 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0027.133 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0027.140 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-others.zip: others: This file has not yet been successfully uploaded: will queue
+0027.146 (0) backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db.gz: db: This file has not yet been successfully uploaded: will queue
+0027.151 (0) Saving backup history. Total backup size: 114.7 MB
+0027.169 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0027.188 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0027.190 (0) No remote despatch: user chose no remote backup service
+0027.192 (0) Recording as successfully uploaded: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-plugins.zip
+0027.199 (0) Recording as successfully uploaded: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-themes.zip
+0027.208 (0) Recording as successfully uploaded: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-uploads.zip
+0027.213 (0) Recording as successfully uploaded: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-others.zip
+0027.218 (0) Recording as successfully uploaded: backup_2020-10-18-1827_Logical_Prediction_77a5e7993958-db.gz
+0027.228 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0027.232 (0) Number of backup sets in history: 1; groups (db): 1
+0027.235 (0) Examining (for databases) backup set with group_id=0, nonce=77a5e7993958, datestamp=1603045649 (Oct 18 2020 18:27:29)
+0027.242 (0) This backup set is the backup set just made, so will not be deleted.
+0027.242 (0) Number of backup sets in history: 1; groups (files): 1
+0027.247 (0) Examining (for files) backup set with nonce=77a5e7993958, datestamp=1603045649 (Oct 18 2020 18:27:29)
+0027.247 (0) This backup set is the backup set just made, so will not be deleted.
+0027.252 (0) This backup set is the backup set just made, so will not be deleted.
+0027.252 (0) This backup set is the backup set just made, so will not be deleted.
+0027.253 (0) This backup set is the backup set just made, so will not be deleted.
+0027.253 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0027.256 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0027.265 (0) Resume backup (77a5e7993958, 0): finish run
+0027.273 (0) Decremented the semaphore (fd) by 1
+0027.279 (0) Semaphore (fd) unlocked
+0027.282 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0027.293 (0) No email will/can be sent - the user has not configured an email address.
+0027.299 (0) The backup apparently succeeded and is now complete
